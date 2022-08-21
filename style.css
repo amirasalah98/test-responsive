@@ -1,0 +1,103 @@
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li:not(.aboutUs){
+    list-style-type: none;
+    border-right: 1px solid rgba(77, 77, 100, 0.678);
+    
+}
+nav{
+    
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: rgb(211, 158, 44);
+}
+.first-header{
+    height: 30px;
+    background-color:#141447 ;
+    border-top: 3px solid rgb(211, 158, 44);
+}
+.second-header{
+    height: 100px;
+    background-color: #fff;
+}
+.second-header span{
+    color: rgb(211, 158, 44);
+}
+.bg-sec-color{
+    height: 500px;
+    background-color: rgba(113, 114, 150, 0.678);
+}
+.bg-sec-details{
+    color: #fff;
+}
+.bg-sec-details input{
+    background-color: #00000033;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid rgb(211, 158, 44);
+    border-radius: 5px;
+}
+.bg-sec-details input:hover{
+    transition: all .3s;
+    background-color: rgba(255,255,255,.1);
+    color: rgb(211, 158, 44);
+}
+.bg-sec2{
+background-color: #141447;
+padding: 20px;
+}
+.bg-sec2-all{
+    text-align: center;
+    padding: 20px;
+}
+.bg-sec2-img{
+    width: 200px;
+    padding: 5px;
+border: 2px solid rgb(211, 158, 44);
+border-radius: 50%;
+background-color: #fff;
+}
+.bg-sec2 h1, .bg-sec2 h3{
+color: rgb(211, 158, 44);
+}
+.bg-sec2 p{
+    color: #fff;
+}
+.p-5 {
+    padding: 8rem!important;
+}
+.mission{
+    padding: 25px;
+    background-color: #141447;
+    color: #fff;
+}
+.mission h2{
+    color: rgb(211, 158, 44);
+}
+.vision{
+    background-color: rgb(211, 158, 44);
+    padding: 25px;
+}
+.about-us2 h2{
+    text-align: center;
+}
+.about-us{
+    width: 85%;
+    margin: auto;
+    padding: 25px;
+}
+.about-us h2{
+    color: rgb(211, 158, 44);
+    text-align: center;
+}
+/* responsive header */
+
