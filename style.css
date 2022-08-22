@@ -1,4 +1,3 @@
-
 h1,h2,h3,h4,h5,h6{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -7,33 +6,21 @@ h1,h2,h3,h4,h5,h6{
 }
 li:not(.aboutUs){
     list-style-type: none;
-    border-right: 1px solid rgba(77, 77, 100, 0.678);
-    
+    border-right: 1px solid rgba(77, 77, 100, 0.678);   
 }
-nav{
-    
-}
-/* nav a{
-    text-decoration: none;
-    color: #fff;
-} */
 nav a:hover{
     color: rgb(211, 158, 44);
 }
 .first-header{
-    /* height: 30px; */
     background-color:#141447 ;
     border-top: 3px solid rgb(211, 158, 44);
 }
 .second-header{
-    /* height: 100px; */
     background-color: #fff;
 }
 .second-header span{
     color: rgb(211, 158, 44);
 }
-
-
 .bg-sec-color{
     height: 500px;
     background-color: rgba(113, 114, 150, 0.678);
@@ -42,7 +29,6 @@ nav a:hover{
     width: 100%;
 }
 .bg-sec-color-sm{
-    /* background-color: rgba(113, 114, 150, 0.678); */
     width: 100%;
 }
 .bg-sec-details{
@@ -73,7 +59,6 @@ padding: 20px;
     padding-bottom: 15px;
 }
 .bg-sec2-img{
-    /* width: 200px; */
     padding: 5px;
 border: 2px solid rgb(211, 158, 44);
 border-radius: 50%;
@@ -139,7 +124,6 @@ color: rgb(211, 158, 44);
 }
 .navbar-toggler{
     color: #fff!important;
-    /* border: 1px solid #fff; */
 }
 .navbar-toggler:focus{
     border: 1px solid #fff;
