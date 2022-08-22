@@ -70,14 +70,22 @@ padding: 20px;
 }
 .bg-sec2-all{
     text-align: center;
-    padding: 20px;
+    padding-bottom: 15px;
 }
 .bg-sec2-img{
-    width: 200px;
+    /* width: 200px; */
     padding: 5px;
 border: 2px solid rgb(211, 158, 44);
 border-radius: 50%;
 background-color: #fff;
+}
+.bg-sec2-img-sm{
+    width: 150px;
+    padding: 5px;
+    border: 2px solid rgb(211, 158, 44);
+    border-radius: 50%;
+    background-color: #fff;
+    margin: auto;
 }
 .bg-sec2 h1, .bg-sec2 h3{
 color: rgb(211, 158, 44);
