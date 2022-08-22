@@ -132,4 +132,59 @@ color: rgb(211, 158, 44);
 .navbar-toggler-icon{
     color: #fff!important;
 }
+/* services */
+.about-us2 h2{
+    text-align: center;
+}
+.about-us{
+    width: 85%;
+    margin: auto;
+    padding: 25px;
+}
+.about-us h2{
+    color: rgb(211, 158, 44);
+    text-align: center;
+ }  /* done to this line except nav alignment and icon color*/
+.services{
+  /* background-color: #141447; */
+  margin-bottom: 30px;
+  color: rgb(211, 158, 44);
+  font-weight:400;
+ 
+}
+
+.services-details{
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  /* padding: 10px; */
+  /* margin: 1px; */
+}
+.services-details-sm{
+    background-color: #fff;
+    height: 120px;
+    width: 120px;
+    /* padding: -5px; */
+    /* padding: 10px; */
+    /* margin: 1px; */
+  }
+.services-all{
+  margin: auto;
+  
+}
+.services-text{
+   
+  text-align: center;
+  padding: 25px;
+  vertical-align:middle;
+  /* height: 200px;
+  width: 200px; */
+}
+.services-text-sm{
+   
+    text-align: center;
+    vertical-align:middle;
+    /* height: 120px;
+    width: 120px; */
+  }
 
