@@ -44,14 +44,15 @@ nav a:hover{
     color: #fff;
     width: 100%;
 }
-.bg-sec-details input,.bg-sec-details-sm input{
+.bg-sec-details a,.bg-sec-details-sm a{
     background-color: #00000033;
     color: #fff;
     padding: 5px;
     border: 1px solid rgb(211, 158, 44);
     border-radius: 5px;
+    text-decoration: none;
 }
-.bg-sec-details input:hover, .bg-sec-details-sm input:hover{
+.bg-sec-details a:hover, .bg-sec-details-sm a:hover{
     transition: all .3s;
     background-color: rgba(255,255,255,.1);
     color: rgb(211, 158, 44);
