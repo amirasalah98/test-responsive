@@ -6,7 +6,13 @@ h1,h2,h3,h4,h5,h6{
 }
 li:not(.aboutUs){
     list-style-type: none;
+   padding-left: 30px;
+   padding-right: 30px;
     border-right: 1px solid rgba(77, 77, 100, 0.678);   
+}
+.aboutUs{
+    padding-right: 30px;
+    padding-left: 30px;
 }
 nav a:hover{
     color: rgb(211, 158, 44);
@@ -187,4 +193,22 @@ color: rgb(211, 158, 44);
     /* height: 120px;
     width: 120px; */
   }
+/* contact us */
+form .btn{
+    width: 100px;
+    padding: 10px;
+    margin: 3px;
+    color: rgb(211, 158, 44);
+    border: 1px solid rgb(211, 158, 44);
+}
+form label{
+    color: #141447;
+}
 
+
+.navbar-dark{
+background-color: #141447!important;
+}
+.bg-dark{
+background-color: #141447!important;
+}
