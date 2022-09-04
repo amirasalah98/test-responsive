@@ -499,7 +499,7 @@ color: rgb(211, 158, 44);
   color: #fff!important;
 }
 .navbar-toggler:focus{
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   box-shadow: none;
 }
 .navbar-toggler-icon{
